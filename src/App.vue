@@ -1,15 +1,20 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <HeaderPropinas />
+  <SideBar />
+  <PropinasTotales />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import SideBar from './components/SideBar'
+import HeaderPropinas from './components/HeaderPropinas.vue'
+import PropinasTotales from './components/PropinasTotales.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    SideBar,
+    HeaderPropinas, 
+    PropinasTotales
   }
 }
 </script>
